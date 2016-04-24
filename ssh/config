@@ -1,0 +1,4 @@
+#--- gitlab ---
+
+Host gitlab.com
+   IdentityFile ~/.ssh/muppets

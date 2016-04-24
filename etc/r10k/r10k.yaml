@@ -1,0 +1,6 @@
+---
+:cachedir: /var/cache/r10k
+:sources:
+  :local:
+    remote: git@gitlab.com:muppets/control.git
+    basedir: /etc/puppetlabs/code/environments
