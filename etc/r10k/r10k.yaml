@@ -1,6 +1,11 @@
 ---
 :cachedir: /var/cache/r10k
 :sources:
-  :local:
+  catbert:
     remote: git@gitlab.com:muppets/control.git
     basedir: /etc/puppetlabs/code/environments
+    prefix: false
+  scottylogan:
+    remote: https://github.com/scottylogan/control.git
+    basedir: /etc/puppetlabs/code/environments
+    prefix: true
