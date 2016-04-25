@@ -20,3 +20,8 @@ mkdir /etc/puppetlabs /var/log/puppetlabs
 ssh-keyscan    github.com gitlab.com  >/etc/ssh/ssh_known_hosts
 ssh-keyscan -H github.com gitlab.com >>/etc/ssh/ssh_known_hosts
 
+cd /opt
+git clone https://github.com/scottylogan/catbert-enc.git enc
+cd enc
+npm install -g
+
