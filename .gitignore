@@ -6,3 +6,5 @@ puppetmaster.err
 puppetmaster.out
 etc/code/environments/
 etc/puppet/ssl/
+aws/credentials
+data/
