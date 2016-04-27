@@ -12,4 +12,5 @@ VOLUME /var/log/puppetlabs
 VOLUME /opt/puppetlabs/server/data
 
 EXPOSE 8140
-CMD /opt/puppetlabs/bin/puppetserver foreground
+COPY start.sh /start.sh
+CMD /start.sh
