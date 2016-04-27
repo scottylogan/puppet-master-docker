@@ -9,9 +9,7 @@ COPY default-puppetserver /etc/default/puppetserver
 
 VOLUME /etc/puppetlabs
 VOLUME /var/log/puppetlabs
-VOLUME /root/.ssh
-VOLUME /opt/puppetlabs/server/data/puppetserver/.ssh
-VOLUME /opt/puppetlabs/server/data/puppetserver/.aws
+VOLUME /opt/puppetlabs/server/data
 
 EXPOSE 8140
 CMD /opt/puppetlabs/bin/puppetserver foreground
