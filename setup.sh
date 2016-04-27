@@ -14,8 +14,8 @@ apt-get -qq install curl less git puppet-agent puppetserver nodejs
 
 /opt/puppetlabs/puppet/bin/gem install r10k librarian-puppet
 
-rm -rf /etc/puppet /etc/puppetlabs /var/log/puppetlabs
-mkdir /etc/puppetlabs /var/log/puppetlabs
+rm -rf /etc/puppet /etc/puppetlabs /var/log/puppetlabs /opt/puppetlabs/server/data
+mkdir /etc/puppetlabs /var/log/puppetlabs /opt/puppetlabs/server/data
 
 ssh-keyscan    github.com gitlab.com  >/etc/ssh/ssh_known_hosts
 ssh-keyscan -H github.com gitlab.com >>/etc/ssh/ssh_known_hosts
