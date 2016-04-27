@@ -1,5 +1,5 @@
 ---
-:cachedir: /var/cache/r10k
+:cachedir: /opt/puppetlabs/server/data/r10k
 :sources:
   catbert:
     remote: git@gitlab.com:muppets/control.git
